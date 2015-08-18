@@ -1,0 +1,635 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 12, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 151, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 201, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 267, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 5, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  background-image: url("/images/full-bg.png");
+  background-size: cover;
+  color: white; }
+  /* line 11, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  body.streamliningessentials {
+    background-image: url("/images/streamlining-efficiency/hatface.png"); }
+  /* line 15, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  body.efficiencyessentials {
+    background-image: url("/images/streamlining-efficiency/chair.png"); }
+
+/* line 20, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.wrapper {
+  margin-left: 42%;
+  width: 55%; }
+
+/* line 31, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.border {
+  background-image: url("/images/border.png");
+  background-repeat: repeat; }
+
+/* line 36, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.border-x {
+  height: 4px;
+  width: 100%; }
+
+/* line 41, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.border-y {
+  height: 100%;
+  width: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0; }
+
+/* line 49, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.border-left {
+  left: 0; }
+
+/* line 53, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.border-right {
+  right: 0; }
+
+/* line 57, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.floatme {
+  position: relative; }
+
+/* line 61, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.border-bottom {
+  background-position: center bottom; }
+
+/* line 65, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.border-top {
+  background-position: center top; }
+
+/* line 72, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.content {
+  float: left; }
+
+/* line 76, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.clearfix:after {
+  content: " ";
+  min-height: 1px;
+  clear: both;
+  display: block; }
+
+/* line 83, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+p, h2, h1 {
+  font-size: 25px;
+  color: #0d293c;
+  line-height: 1.25em;
+  font-weight: 300;
+  text-align: center; }
+
+/* line 91, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+h1, h2 {
+  font-size: 32px; }
+
+/* line 95, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-control {
+  width: 250px;
+  padding: 18px 15px 8px;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  border: 0px;
+  color: #0d293c;
+  font-weight: 300;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55); }
+
+/* line 111, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-control::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #0d293c;
+  font-weight: 300; }
+
+/* line 116, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #0d293c;
+  font-weight: 300;
+  opacity: 1; }
+
+/* line 121, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #0d293c;
+  font-weight: 300;
+  opacity: 1; }
+
+/* line 126, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #0d293c;
+  font-weight: 300; }
+
+/* line 131, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-control:focus,
+.btn:focus {
+  outline: 0; }
+
+/* line 136, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.btn {
+  text-indent: -333px;
+  text-indent: -5000px;
+  width: 130px;
+  border: 0px;
+  background-image: url("/images/yes-please.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer; }
+
+/* line 148, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.btn:hover {
+  opacity: 1; }
+
+/* line 152, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-inline:after {
+  content: "";
+  display: block;
+  min-height: 1px;
+  clear: both; }
+
+/* line 159, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-inline .form-group {
+  padding: 20px 9px 0; }
+
+/* line 168, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.content {
+  padding-top: 20px; }
+
+/* line 172, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-inline {
+  text-align: center; }
+
+/* line 180, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials .content, body.efficiencyessentials .content {
+  color: #0d293c;
+  font-weight: 200; }
+  /* line 183, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  body.streamliningessentials .content, body.streamliningessentials .content p, body.streamliningessentials .content li, body.efficiencyessentials .content, body.efficiencyessentials .content p, body.efficiencyessentials .content li {
+    font-size: 22px; }
+/* line 189, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials ul, body.efficiencyessentials ul {
+  margin: .9em 0; }
+  /* line 191, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  body.streamliningessentials ul > li, body.efficiencyessentials ul > li {
+    margin-bottom: .5em; }
+/* line 196, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials h2, body.streamliningessentials h3, body.efficiencyessentials h2, body.efficiencyessentials h3 {
+  color: #0d293c;
+  text-align: center;
+  font-weight: 200; }
+/* line 202, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials h2, body.efficiencyessentials h2 {
+  font-size: 42px; }
+/* line 206, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials h3, body.efficiencyessentials h3 {
+  font-size: 30px; }
+/* line 210, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials h4, body.streamliningessentials h5, body.efficiencyessentials h4, body.efficiencyessentials h5 {
+  font-size: 20px;
+  font-weight: 400; }
+/* line 215, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials big, body.efficiencyessentials big {
+  font-size: 20px; }
+/* line 219, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials .form-inline .form-group, body.streamliningessentials .form-inline .btn, body.efficiencyessentials .form-inline .form-group, body.efficiencyessentials .form-inline .btn {
+  text-align: left; }
+/* line 223, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials .form-inline, body.efficiencyessentials .form-inline {
+  padding-top: 20px;
+  padding-bottom: 40px; }
+/* line 228, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials .form-control, body.streamliningessentials .btn, body.efficiencyessentials .form-control, body.efficiencyessentials .btn {
+  background-color: rgba(221, 169, 197, 0.6); }
+
+/* line 234, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+p.margined {
+  margin: 1em 0; }
+
+/* line 238, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.efficiencyessentials p.margined {
+  margin: 1.5em 0; }
+
+/* line 243, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-inline .form-group, .form-inline .btn {
+  float: none; }
+/* line 247, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-inline .form-group {
+  display: inline-block; }
+
+/* line 253, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.efficiencyessentials .wrapper {
+  width: 80%;
+  margin-left: 20%;
+  margin-right: 0%; }
+  /* line 257, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  body.efficiencyessentials .wrapper .padded {
+    padding-right: 290px; }
+  /* line 260, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  body.efficiencyessentials .wrapper .content {
+    float: none; }
+/* line 265, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.efficiencyessentials .form-inline {
+  text-align: center; }
+
+/* line 273, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+* {
+  margin: 0; }
+
+/* line 276, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+html, body {
+  height: 100%; }
+
+/* line 279, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -180px; }
+  /* line 284, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  .page-wrap:after {
+    content: "";
+    display: block;
+    height: 180px; }
+
+/* line 296, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.site-footer {
+  position: relative;
+  background: #ffffff;
+  padding: 15px 40px;
+  height: 150px; }
+  /* line 302, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  .site-footer .logo {
+    float: left;
+    margin-right: 30px; }
+  /* line 306, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  .site-footer p {
+    font-size: 22px;
+    color: #0d293c;
+    text-align: left; }
+  /* line 312, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  .site-footer.bubble-me {
+    padding-right: 340px; }
+  /* line 316, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  .site-footer .bubble {
+    position: absolute;
+    right: 40px;
+    bottom: 15px; }
+
+/* line 324, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.message {
+  text-align: center;
+  padding: 10px 0 0;
+  font-weight: 200; }
+  /* line 329, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  .message.fail {
+    color: red; }
+  /* line 332, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  .message.success {
+    color: green; }
